@@ -13,8 +13,12 @@
     "build:prod": "webpack --mode=production",
     "dev": "webpack serve --mode=production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagemodeninja/docs-engine"
+  },
   "author": "Gary Antier <contact@garyantier.com> (https://gary.antierfamily.com)",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",

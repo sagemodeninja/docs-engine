@@ -14,8 +14,12 @@
     "build:push": "npm run build:dev && yalc push --sig",
     "prepublishOnly": "npm run build:prod"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagemodeninja/docs-engine"
+  },
   "author": "Gary Antier <contact@garyantier.com> (https://gary.antierfamily.com)",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.md",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "mini-css-extract-plugin": "^2.9.2",
