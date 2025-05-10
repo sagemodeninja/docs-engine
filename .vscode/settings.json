@@ -1,0 +1,10 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${basename}.html,${basename}.scss",
+    },
+    "files.exclude": {
+        "**/build": true,
+        "**/node_modules": true
+    }
+}

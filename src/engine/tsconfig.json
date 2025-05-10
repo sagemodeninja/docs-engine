@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "noEmitOnError": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["*"]
+        }
+    },
+    "exclude": ["node_modules"]
+}
